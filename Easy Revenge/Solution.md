@@ -1,6 +1,6 @@
 # Easy Revenge---Write-up-----KCSC-Recruitment-2026
 
-Hướng dẫn cách giải bài Easyyyyyyyyyyyyyyyy của giải KCSC-Recruitment-2026
+Hướng dẫn cách giải bài Easy Revenge của giải KCSC-Recruitment-2026
 
 **Author:** Nguyễn Cao Nhân aka Nhân Sigma
 
