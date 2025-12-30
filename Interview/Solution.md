@@ -42,6 +42,10 @@ unsigned __int64 __fastcall edit_present(unsigned int a1)
   return v4 - __readfsqword(0x28u);
 }
 ```
+Bug này hoạt động như sau. Khi các bạn chọn index aka `a1` thì nó sẽ trỏ tới vị trí `80 * a1`.
+- `80 * a1` là name.
+- `80 * a1 + 32` là address.
+- Khi nhìn xuống lần nhập address thứ 2. Ta thấy công thức tổng quát sau : `80 * a1 + độ dài của address lần 1 + 32`. Nếu các bạn chọn `a1` = 15 và ghi full address lần 1 thì vị trí bạn trỏ tới là 1264. Sau đó các bạn có thể nhập thêm 32 byte nữa thì các bạn có thể ghi đè tới 1296 ( trong khi `santa_func` nằm ở 1280 ).
 
 ## 2. Cách thực thi
 Đầu tiên chúng ta cần xem coi chúng ta nên đè hàm win vào đâu.
