@@ -43,8 +43,6 @@ unsigned __int64 __fastcall edit_present(unsigned int a1)
 }
 ```
 
-Bài này là **OOB** với lỗi ở đây là mảng `presents`.
-
 ## 2. Cách thực thi
 Đầu tiên chúng ta cần xem coi chúng ta nên đè hàm win vào đâu.
 
