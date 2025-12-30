@@ -190,7 +190,7 @@ p.sendlineafter(b'>> ', b'4')
 p.interactive()
 ```
 
-Vậy là xong, bài này khá là hay vì đây là lần đầu tiên mình gặp và sử dụng kĩ thuật này. Có thể sẽ gặp nhiều trong các bài tới. Thôi thì cũng gần qua năm mới rồi mình chúc các bạn an khang thịnh vượng, vạn sự như ý, phát tài phát lộc, 8386. Tiền vô như nước sông Đà, tiền ra nhỏ giọt như phin cà phê 🐧.
+Vậy là xong, bài này khá là hay vì đây là lần đầu tiên mình gặp và sử dụng kĩ thuật này. Có thể sẽ gặp nhiều trong các bài tới. Thôi thì cũng gần qua năm mới rồi mình chúc các bạn an khang thịnh vượng, vạn sự như ý, phát tài phát lộc, 8386. Tiền vô như nước sông Đà, tiền ra nhỏ giọt như cà phê phin 🐧.
 
 <img width="445" height="116" alt="image" src="https://github.com/user-attachments/assets/8bd09a56-b127-4c5e-927a-9d8cc263d91c" />
 
